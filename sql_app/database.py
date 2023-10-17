@@ -10,5 +10,5 @@ engine = create_engine(
 )
 
 # SessionLocalとBaseは、動的に作られたclass
-SessionLocal = sessionmaker(autoflush=False, bind=engine)
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
