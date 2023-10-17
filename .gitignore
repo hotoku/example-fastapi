@@ -1,3 +1,4 @@
 __pycache__/
 credentials.json
 sql_app.db
+log.txt
