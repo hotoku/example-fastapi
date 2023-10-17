@@ -11,6 +11,7 @@ python = "^3.11"
 fastapi = {extras = ["all"], version = "^0.103.2"}
 python-jose = {extras = ["cryptography"], version = "^3.3.0"}
 passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+sqlalchemy = "^2.0.22"
 
 
 [build-system]
